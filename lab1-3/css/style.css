@@ -1,0 +1,59 @@
+.form-control {
+    margin: 20px;
+}
+
+address {
+    position: relative;
+}
+
+strong>div {
+    display: none;
+    width: 40px;
+    position: absolute;
+}
+
+address:hover>strong>div {
+    display: inline;
+}
+
+.glyphicon {
+    cursor: pointer;
+    padding: 0 0 0 5px;
+}
+
+.glyphicon-pencil,
+.glyphicon-remove {
+    color: #5e5b64 !important;
+    background: #fff !important;
+    border: none !important;
+    font-size: 11px;
+}
+
+.glyphicon-pencil:hover {
+    color: #4cae4c !important;
+}
+
+.glyphicon-remove:hover {
+    color: #d43f3a !important;
+}
+
+.show-animation,
+.hide-animation,
+.btn
+address {
+    -webkit-transition: all ease-in 0.5s;
+    transition: all ease-in 0.5s;
+    opacity: 1;
+}
+
+.show-animation.show-animation-active {
+    opacity: 1;
+}
+
+.hide-animation.hide-animation-active {
+    opacity: 0;
+}
+
+.ng-hide {
+    opacity: 0;
+}

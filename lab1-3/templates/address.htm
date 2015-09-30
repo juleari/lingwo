@@ -1,0 +1,10 @@
+<address ng-repeat="person in person_list | filter:query | orderBy:orderProp" >
+    <strong>
+        {{person.first_name + ' ' + person.last_name}}
+        <div>
+            <i class="glyphicon glyphicon-pencil" title="Изменить" ng-click="change()"></i>
+            <i class="glyphicon glyphicon-remove" title="Удалить" ng-click="remove()"></i>
+        </div>
+    </strong><br>
+    <a ng-href="mailto:{{person.email}}">{{person.email}}</a>
+</address>
